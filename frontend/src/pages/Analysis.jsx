@@ -19,7 +19,7 @@ const Analysis = () => {
 
   const fetchStats = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/analysis');
+      const res = await axios.get('https://railwayready.onrender.com/analysis');
       setStats(res.data);
       setLoading(false);
     } catch (error) {
