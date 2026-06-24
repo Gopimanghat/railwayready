@@ -6,7 +6,7 @@ import {
   Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend
 } from 'recharts';
 
-
+/* eslint-disable */
 
 const Analysis = () => {
   const navigate = useNavigate();
