@@ -39,7 +39,7 @@ setQuestions(res.data.questions.slice(0, 5));
       setTimer(prev => prev - 1);
     }, 1000);
     return () => clearInterval(interval);
- }, [timer, loading, showAnswer]);
+}, [timer, loading, showAnswer]);
 
   const handleSelect = (option) => {
     if (showAnswer) return;

@@ -6,7 +6,7 @@ import {
   Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend
 } from 'recharts';
 
-const COLORS = ['#0f3460', '#533483', '#00ff88', '#ff9800', '#f44336'];
+
 
 const Analysis = () => {
   const navigate = useNavigate();
